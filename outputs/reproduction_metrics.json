@@ -1,0 +1,68 @@
+{
+  "quality": "standard",
+  "reconstruction_notes": {
+    "eulerian_controller": "ideal exact midplane-rate constraint",
+    "eulerian_area_scheme": "pointwise (Hoyle-Fielding non-conservative upwind); 'conservative' available",
+    "lagrangian_controller": "ideal exact midplane-strain constraint",
+    "lagrangian_time_discretization": "second_order (trapezoidal history, BDF2 solvent rate, theta-method stretch, sub-step modes lumped)",
+    "bsw_tau_c_over_tau_m": 0.001,
+    "eulerian_solvent_factor": 1.0,
+    "lagrangian_solvent_factor": 3.0
+  },
+  "figure_02": {
+    "final_true_strain": 2.0000542717449084,
+    "final_nominal_strain": 1.5835097895185815,
+    "relative_volume_error": 0.004079760385812703
+  },
+  "figure_03": {
+    "eulerian_final_nominal_strain": 1.9246573489216814,
+    "lagrangian_final_nominal_strain": 1.9311021689366117,
+    "lagrangian_tracking_error_max": 3.397282455352979e-14
+  },
+  "figure_04": {
+    "beta_0p4_high_rate_limit": 5.854101966249685,
+    "wi_2_steady_stress": 5.293154382482188,
+    "simulated_mid_stress_at_t2": 5.301315004930949
+  },
+  "figure_05": {
+    "peak_nominal_strain": 1.572387589297245,
+    "final_nominal_strain": 1.2229719562429426,
+    "final_minimum_radius": 0.13521218287027761,
+    "neck_cells_at_t2": 3,
+    "neck_cells_at_t1p6": 39,
+    "relative_volume_error": 0.006106763628222156
+  },
+  "figure_06": {
+    "nonstretch_high_wi_limit": 3.0,
+    "wi_2_steady_stress": 2.7092145477785126,
+    "simulated_mid_stress_at_t2": 2.70813504151317,
+    "wi_100_stretch_stress": 35.816510059053
+  },
+  "figure_07": {
+    "peak_nominal_strain": 1.4045942535812932,
+    "final_nominal_strain": 1.1383501223626205,
+    "final_minimum_radius": 0.13533527155211558,
+    "neck_segments_at_t2": 2,
+    "neck_segments_at_t1p6": 14,
+    "tracking_error_max": 2.980948821118545e-14
+  },
+  "figure_08": {
+    "bsw_tau_m": 5.3478260869565215,
+    "bsw_tau_c_over_tau_m": 0.001,
+    "zero_shear_time": 1.0040606679807604,
+    "steady_stress": 1.5479699235552267,
+    "simulated_mid_stress_at_t2": 1.5448081111771188,
+    "lumped_sub_step_mode_viscosity": 0.007408051083558134,
+    "final_nominal_strain": 1.1557194027737838,
+    "neck_segments_at_t2": 4
+  },
+  "figure_09_10": {
+    "analytical_steady_stress_over_G0": 19.419239703273075,
+    "analytical_steady_stress_kPa": 4854.809925818268,
+    "simulated_peak_stress_over_G0": 19.348002667969183,
+    "nominal_strain_at_100s": 2.697999395257942,
+    "nominal_strain_at_500s": 1.4072700855961267,
+    "maximum_midplane_molecular_stretch": 2.5022782383504447,
+    "tracking_error_max": 1.429412144204889e-14
+  }
+}

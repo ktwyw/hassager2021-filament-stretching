@@ -1,0 +1,21 @@
+# Generated figure panels
+
+- `figures/figure_01_schematic.png`
+- `figures/figure_02a_newtonian_strains.png`
+- `figures/figure_02b_newtonian_profiles.png`
+- `figures/figure_03a_oldroyd_strains.png`
+- `figures/figure_03b_oldroyd_profiles_comparison.png`
+- `figures/figure_04a_rolie_steady_stress.png`
+- `figures/figure_04b_rolie_stress_growth.png`
+- `figures/figure_05a_rolie_strains.png`
+- `figures/figure_05b_rolie_profiles.png`
+- `figures/figure_06a_de_steady_stress.png`
+- `figures/figure_06b_de_stress_growth.png`
+- `figures/figure_07a_de_strains.png`
+- `figures/figure_07b_de_profiles.png`
+- `figures/figure_08a_bsw_stress_growth.png`
+- `figures/figure_08b_bsw_profiles.png`
+- `figures/figure_09a_relaxation_strains.png`
+- `figures/figure_09b_relaxation_stress.png`
+- `figures/figure_10a_relaxation_profiles.png`
+- `figures/figure_10b_molecular_stretch.png`

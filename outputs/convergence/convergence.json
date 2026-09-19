@@ -1,0 +1,77 @@
+{
+  "analytical_steady_stress": 2.7092145477785126,
+  "rows": [
+    {
+      "scheme": "matlab_first_order",
+      "dt": 0.1,
+      "stress_t2": 2.9387449066219413,
+      "stress_error": 0.22953035884342876,
+      "peak_nominal_strain": 1.338988926771972,
+      "final_nominal_strain": 1.1796599235937264,
+      "max_newton_iterations": 5
+    },
+    {
+      "scheme": "matlab_first_order",
+      "dt": 0.05,
+      "stress_t2": 2.8192482981637936,
+      "stress_error": 0.11003375038528107,
+      "peak_nominal_strain": 1.375724839692241,
+      "final_nominal_strain": 1.1967063311961492,
+      "max_newton_iterations": 4
+    },
+    {
+      "scheme": "matlab_first_order",
+      "dt": 0.025,
+      "stress_t2": 2.763209871197581,
+      "stress_error": 0.05399532341906843,
+      "peak_nominal_strain": 1.3971659527474825,
+      "final_nominal_strain": 1.2086364263111462,
+      "max_newton_iterations": 3
+    },
+    {
+      "scheme": "matlab_first_order",
+      "dt": 0.0125,
+      "stress_t2": 2.7360365006710805,
+      "stress_error": 0.026821952892567946,
+      "peak_nominal_strain": 1.409181980533973,
+      "final_nominal_strain": 1.215558669716635,
+      "max_newton_iterations": 3
+    },
+    {
+      "scheme": "second_order",
+      "dt": 0.1,
+      "stress_t2": 2.704139826646769,
+      "stress_error": -0.005074721131743676,
+      "peak_nominal_strain": 1.3541289736076174,
+      "final_nominal_strain": 1.1269032701135544,
+      "max_newton_iterations": 6
+    },
+    {
+      "scheme": "second_order",
+      "dt": 0.05,
+      "stress_t2": 2.7080859953766607,
+      "stress_error": -0.0011285524018518345,
+      "peak_nominal_strain": 1.4046652478737187,
+      "final_nominal_strain": 1.1953775081108453,
+      "max_newton_iterations": 5
+    },
+    {
+      "scheme": "second_order",
+      "dt": 0.025,
+      "stress_t2": 2.7090705737700187,
+      "stress_error": -0.00014397400849386344,
+      "peak_nominal_strain": 1.4176690908543617,
+      "final_nominal_strain": 1.2157457061156234,
+      "max_newton_iterations": 4
+    },
+    {
+      "scheme": "second_order",
+      "dt": 0.0125,
+      "stress_t2": 2.7093164826927643,
+      "stress_error": 0.00010193491425170009,
+      "peak_nominal_strain": 1.4209434771715257,
+      "final_nominal_strain": 1.2212647262762915,
+      "max_newton_iterations": 4
+    }
+  ]
+}

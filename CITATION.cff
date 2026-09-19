@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper it reproduces (see preferred-citation)."
+title: "Python reproduction of 'Extensional rheometry of model liquids: Simulations of filament stretching'"
+authors:
+  - family-names: Wang
+    given-names: Yanwei
+    affiliation: Nazarbayev University
+version: 1.2.0
+license: MIT
+preferred-citation:
+  type: article
+  title: "Extensional rheometry of model liquids: Simulations of filament stretching"
+  authors:
+    - family-names: Hassager
+      given-names: Ole
+    - family-names: Wang
+      given-names: Yanwei
+    - family-names: Huang
+      given-names: Qian
+  journal: Physics of Fluids
+  volume: 33
+  issue: 12
+  start: 123108
+  year: 2021
+  doi: 10.1063/5.0076347

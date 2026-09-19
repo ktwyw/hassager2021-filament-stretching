@@ -1,0 +1,94 @@
+{
+  "analytical_stress_t1p5": 5.268888860381938,
+  "analytical_stress_t2": 5.29079524726454,
+  "rows": [
+    {
+      "scheme": "pointwise",
+      "n_points": 201,
+      "peak_nominal_strain": 1.5721850295204287,
+      "final_nominal_strain": 1.2194282290292535,
+      "volume_error": 0.012256670696444205,
+      "tracking_error": 0.0036550100568950583,
+      "stress_t1p5": 5.287791023700874,
+      "stress_t2": 5.308543571031638,
+      "neck_cells_t2": 1
+    },
+    {
+      "scheme": "pointwise",
+      "n_points": 401,
+      "peak_nominal_strain": 1.572387589297245,
+      "final_nominal_strain": 1.2229719562429426,
+      "volume_error": 0.006106763628222156,
+      "tracking_error": 0.0018200188913475301,
+      "stress_t1p5": 5.27941309721741,
+      "stress_t2": 5.301315004930949,
+      "neck_cells_t2": 3
+    },
+    {
+      "scheme": "pointwise",
+      "n_points": 801,
+      "peak_nominal_strain": 1.5725246467844523,
+      "final_nominal_strain": 1.2267871788085027,
+      "volume_error": 0.0030444584389042184,
+      "tracking_error": 0.0009066565692341655,
+      "stress_t1p5": 5.275268979976919,
+      "stress_t2": 5.297667203056004,
+      "neck_cells_t2": 7
+    },
+    {
+      "scheme": "pointwise",
+      "n_points": 1601,
+      "peak_nominal_strain": 1.5726020534209117,
+      "final_nominal_strain": 1.2299076194822693,
+      "volume_error": 0.0015224795704580352,
+      "tracking_error": 0.0004520549577442523,
+      "stress_t1p5": 5.273210705525073,
+      "stress_t2": 5.295825123566283,
+      "neck_cells_t2": 17
+    },
+    {
+      "scheme": "conservative",
+      "n_points": 201,
+      "peak_nominal_strain": 1.5711334820714675,
+      "final_nominal_strain": 1.2544838405675918,
+      "volume_error": 2.220446049250313e-16,
+      "tracking_error": 1.3322676295501878e-15,
+      "stress_t1p5": 5.331994039178801,
+      "stress_t2": 6.100797023257898,
+      "neck_cells_t2": 5
+    },
+    {
+      "scheme": "conservative",
+      "n_points": 401,
+      "peak_nominal_strain": 1.5719908985368962,
+      "final_nominal_strain": 1.2403622609465725,
+      "volume_error": -3.3306690738754696e-16,
+      "tracking_error": 8.881784197001252e-16,
+      "stress_t1p5": 5.29097959989605,
+      "stress_t2": 5.846594636861033,
+      "neck_cells_t2": 5
+    },
+    {
+      "scheme": "conservative",
+      "n_points": 801,
+      "peak_nominal_strain": 1.572357988121109,
+      "final_nominal_strain": 1.2329043392140806,
+      "volume_error": -3.3306690738754696e-16,
+      "tracking_error": 8.881784197001252e-16,
+      "stress_t1p5": 5.277934082109999,
+      "stress_t2": 5.5915037121635445,
+      "neck_cells_t2": 9
+    },
+    {
+      "scheme": "conservative",
+      "n_points": 1601,
+      "peak_nominal_strain": 1.572526548493546,
+      "final_nominal_strain": 1.2305034571581115,
+      "volume_error": 0.0,
+      "tracking_error": 4.440892098500626e-16,
+      "stress_t1p5": 5.273716598129886,
+      "stress_t2": 5.409776618715674,
+      "neck_cells_t2": 17
+    }
+  ]
+}
