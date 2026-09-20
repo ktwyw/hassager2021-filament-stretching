@@ -112,4 +112,4 @@ If this code is useful in your work, please cite the paper it reproduces:
 
 ## License
 
-The code, documentation and generated outputs in this repository are released under the MIT License (see `LICENSE`). The license does not require citation, but the paper above is the appropriate reference for the methods and results reproduced here. The paper itself is © AIP Publishing and is not included; Figure 1's photograph is not reproduced.
+This project is released under the MIT License. See [`LICENSE`](LICENSE) for the full text. If you use the code in published work, please cite the paper above.
