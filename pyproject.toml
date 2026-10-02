@@ -4,17 +4,29 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hassager2021-filament-reproduction"
-version = "1.2.0"
-description = "Python reconstruction of Hassager, Wang & Huang (Physics of Fluids 33, 123108, 2021)"
+version = "1.3.0"
+description = "Python reproduction of Hassager, Wang & Huang (Physics of Fluids 33, 123108, 2021): controlled filament-stretching simulations of model liquids"
+readme = "README.md"
 requires-python = ">=3.10"
+keywords = ["rheology", "extensional rheology", "filament stretching", "viscoelastic fluids", "Oldroyd-B", "Rolie-Poly", "Doi-Edwards", "reproducible research"]
 license = {text = "MIT"}
-classifiers = ["License :: OSI Approved :: MIT License"]
-authors = [{name = "Yanwei Wang"}]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics",
+]
+authors = [{name = "Yanwei Wang", email = "wangyanwei@gmail.com"}]
 dependencies = [
   "numpy>=1.26",
   "scipy>=1.11",
   "matplotlib>=3.8",
 ]
+
+[project.urls]
+Repository = "https://github.com/ktwyw/hassager2021-filament-stretching"
+Paper = "https://doi.org/10.1063/5.0076347"
+Changelog = "https://github.com/ktwyw/hassager2021-filament-stretching/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["hassager2021"]
